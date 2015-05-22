@@ -153,7 +153,7 @@ I love contributions!
 If you would like to contribute to the code repository, please open a pull
 request on GitHub with clean code and a concise but comprehensive description.
 
-For database contributions, please open a pull request on GitHub and enclose
+For database contributions, please open an issue on GitHub and enclose
 a series of INSERT and/or UPDATE statements that can be run on the
 currently-published version of the database.
 
