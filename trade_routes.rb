@@ -98,21 +98,49 @@ class X3Thing
       [ '--sector',     '-s', GetoptLong::REQUIRED_ARGUMENT ],
       [ '--volume',     '-v', GetoptLong::REQUIRED_ARGUMENT ],
     )
+    errors = []
     opts.each do |opt, arg|
       case opt
         when '--sector'
-          @sector_name = arg
+          if arg && arg.is_a?(String) && arg.length > 0
+            @sector_name = arg
+          else
+            errors.push '--sector requires a sector name'
+          end
         when '--num-output'
-          @output_size = Integer(arg) rescue nil
+          begin
+            @output_size = Integer(arg)
+            errors.push '--num-output requires a positive integer argument' unless @output_size > 0
+          rescue ArgumentError
+            errors.push '--num-output requires an integer argument'
+          end
         when '--price'
-          @user_max_buy_price = Float(arg) rescue nil
+          begin
+            @user_max_buy_price = Float(arg)
+            errors.push '--price requires a positive numeric argument' unless @user_max_buy_price > 0
+          rescue ArgumentError
+            errors.push '--price requires a numeric argument'
+          end
         when '--volume'
-          @ship_volume = Integer(arg) rescue nil
+          begin
+            @ship_volume = Integer(arg)
+            errors.push '--volume requires a positive integer argument' unless @ship_volume > 0
+          rescue ArgumentError
+            errors.push '--volume requires an integer argument'
+          end
         when '--ignore-trading-posts'
           @ignore_trading_posts = 1
         when '--help'
           _usage 0
       end
+    end
+
+    if !errors.empty?
+      errors.each do |err|
+        puts "Error: #{err}"
+      end
+      puts 'Use -h for more help.'
+      exit! 1
     end
 
     if !@sector_name
