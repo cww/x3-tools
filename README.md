@@ -47,26 +47,26 @@ Generate the best trade routes originating from Ringo Moon:
 ```
 $ ./trade_routes.rb -s "Ringo Moon"
 Starting from: Ringo Moon
-     1.2 (  Navigation Relay Satellite)                 Free Argon Trading Station ->        Ringo Moon/                Free Argon Trading Station (dist  0 pp [ 11051- 15901] vol 4)
      0.9 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Cloudbase NW/                Free Argon Trading Station (dist  1 pp [ 11051- 15901] vol 4)
-     0.7 (         Computer Components)                 Free Argon Trading Station ->        Ringo Moon/                Free Argon Trading Station (dist  0 pp [   998-  1698] vol 1)
-     0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->          The Hole/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
+     0.7 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Cloudbase SW/                Free Argon Trading Station (dist  2 pp [ 11051- 15901] vol 4)
      0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Power Circle/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
+     0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->          The Hole/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
      0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->   President's End/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
      0.5 (         Computer Components)                 Free Argon Trading Station ->       Argon Prime/          Advanced Satellite Factory alpha (dist  1 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->   Herron's Nebula/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
      0.4 (         Computer Components)                 Free Argon Trading Station ->      Three Worlds/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->     Home of Light/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
+     0.4 (         Computer Components)                 Free Argon Trading Station ->      Cloudbase SW/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
+     0.4 (         Computer Components)                 Free Argon Trading Station ->      Cloudbase SW/           Drone Production Facility alpha (dist  2 pp [   998-  1698] vol 1)
      0.4 (         Computer Components)                 Free Argon Trading Station ->          The Wall/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
+     0.4 (         Computer Components)                 Free Argon Trading Station ->   Herron's Nebula/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
+     0.4 (         Computer Components)                 Free Argon Trading Station ->     Home of Light/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
      0.3 (         Computer Components)                 Free Argon Trading Station ->   President's End/                Free Argon Trading Station (dist  3 pp [   998-  1698] vol 1)
-     0.3 (               Quantum Tubes)                 Free Argon Trading Station ->        Ringo Moon/                Free Argon Trading Station (dist  0 pp [  2560-  4176] vol 5)
+     0.3 (         Computer Components)                 Free Argon Trading Station ->          Ore Belt/                Free Argon Trading Station (dist  3 pp [   998-  1698] vol 1)
+     0.3 (         Computer Components)                 Free Argon Trading Station ->   Elena's Fortune/              Advanced Drone Factory alpha (dist  4 pp [   998-  1698] vol 1)
+     0.3 (         Computer Components)                 Free Argon Trading Station ->   Elena's Fortune/                Free Argon Trading Station (dist  4 pp [   998-  1698] vol 1)
      0.2 (               Quantum Tubes)                 Free Argon Trading Station ->         Red Light/     Production Complex Light Shield alpha (dist  1 pp [  2560-  4176] vol 5)
      0.2 (               Quantum Tubes)                 Free Argon Trading Station ->         Red Light/                Free Argon Trading Station (dist  1 pp [  2560-  4176] vol 5)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->     Home of Light/                Free Argon Trading Station (dist  2 pp [  2560-  4176] vol 5)
      0.2 (               Quantum Tubes)                 Free Argon Trading Station ->      Three Worlds/                Free Argon Trading Station (dist  2 pp [  2560-  4176] vol 5)
      0.2 (               Quantum Tubes)                 Free Argon Trading Station ->          The Wall/                Free Argon Trading Station (dist  2 pp [  2560-  4176] vol 5)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->   President's End/                Free Argon Trading Station (dist  3 pp [  2560-  4176] vol 5)
-     0.1 (                 Cloth Rimes)                 Free Argon Trading Station ->        Ringo Moon/                Free Argon Trading Station (dist  0 pp [   152-   432] vol 2)
 ```
 
 Generate the best 8 trade routes originating from Cloudbase NW for a ship with a capacity of 75, and don't include trading posts:
@@ -74,14 +74,14 @@ Generate the best 8 trade routes originating from Cloudbase NW for a ship with a
 ```
 $ ./trade_routes.rb -s "Cloudbase NW" -v 75 -n 8 -P
 Starting from: Cloudbase NW
-     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/                         Rimes Fact L beta (dist  1 pp [    10-    54] vol 2)
-     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/                    Cahoona Bakery M Alpha (dist  1 pp [    10-    54] vol 2)
-     0.6 (              Delexian Wheat)                          Wheat Farm M beta ->   Herron's Nebula/                    Cahoona Bakery M Alpha (dist  1 pp [    10-    54] vol 2)
+     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/             Space Fuel Distillery M alpha (dist  1 pp [    10-    54] vol 2)
+     0.6 (              Delexian Wheat)                          Wheat Farm M beta ->   Herron's Nebula/                        Rimes Fact M alpha (dist  1 pp [    10-    54] vol 2)
+     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/                        Rimes Fact M alpha (dist  1 pp [    10-    54] vol 2)
      0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->      Three Worlds/                    Cahoona Bakery M Alpha (dist  1 pp [    10-    54] vol 2)
      0.6 (              Delexian Wheat)                          Wheat Farm M beta ->      Three Worlds/                    Cahoona Bakery M Alpha (dist  1 pp [    10-    54] vol 2)
      0.6 (              Delexian Wheat)                          Wheat Farm M beta ->   Herron's Nebula/                         Rimes Fact L beta (dist  1 pp [    10-    54] vol 2)
-     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/                        Rimes Fact M alpha (dist  1 pp [    10-    54] vol 2)
-     0.6 (              Delexian Wheat)                          Wheat Farm M beta ->        Ringo Moon/                     Cahoona Bakery M beta (dist  1 pp [    10-    54] vol 2)
+     0.6 (              Delexian Wheat)                         Wheat Farm M alpha ->   Herron's Nebula/                         Rimes Fact L beta (dist  1 pp [    10-    54] vol 2)
+     0.6 (              Delexian Wheat)                          Wheat Farm M beta ->   Herron's Nebula/                    Cahoona Bakery M Alpha (dist  1 pp [    10-    54] vol 2)
 ```
 
 ### Output format
