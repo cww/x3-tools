@@ -42,31 +42,31 @@ Output usage information:
 $ ./trade_routes.rb -h
 ```
 
-Generate the best trade routes originating from Ringo Moon:
+Generate the best trade routes originating from Argon Prime:
 
 ```
-$ ./trade_routes.rb -s "Ringo Moon"
-Starting from: Ringo Moon
-     0.9 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Cloudbase NW/                Free Argon Trading Station (dist  1 pp [ 11051- 15901] vol 4)
-     0.7 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Cloudbase SW/                Free Argon Trading Station (dist  2 pp [ 11051- 15901] vol 4)
-     0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->      Power Circle/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
-     0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->          The Hole/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
-     0.6 (  Navigation Relay Satellite)                 Free Argon Trading Station ->   President's End/                Free Argon Trading Station (dist  3 pp [ 11051- 15901] vol 4)
-     0.5 (         Computer Components)                 Free Argon Trading Station ->       Argon Prime/          Advanced Satellite Factory alpha (dist  1 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->      Three Worlds/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->      Cloudbase SW/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->      Cloudbase SW/           Drone Production Facility alpha (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->          The Wall/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->   Herron's Nebula/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.4 (         Computer Components)                 Free Argon Trading Station ->     Home of Light/                Free Argon Trading Station (dist  2 pp [   998-  1698] vol 1)
-     0.3 (         Computer Components)                 Free Argon Trading Station ->   President's End/                Free Argon Trading Station (dist  3 pp [   998-  1698] vol 1)
-     0.3 (         Computer Components)                 Free Argon Trading Station ->          Ore Belt/                Free Argon Trading Station (dist  3 pp [   998-  1698] vol 1)
-     0.3 (         Computer Components)                 Free Argon Trading Station ->   Elena's Fortune/              Advanced Drone Factory alpha (dist  4 pp [   998-  1698] vol 1)
-     0.3 (         Computer Components)                 Free Argon Trading Station ->   Elena's Fortune/                Free Argon Trading Station (dist  4 pp [   998-  1698] vol 1)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->         Red Light/     Production Complex Light Shield alpha (dist  1 pp [  2560-  4176] vol 5)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->         Red Light/                Free Argon Trading Station (dist  1 pp [  2560-  4176] vol 5)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->      Three Worlds/                Free Argon Trading Station (dist  2 pp [  2560-  4176] vol 5)
-     0.2 (               Quantum Tubes)                 Free Argon Trading Station ->          The Wall/                Free Argon Trading Station (dist  2 pp [  2560-  4176] vol 5)
+$ ./trade_routes.rb -s 'Argon Prime'
+Starting from: Argon Prime
+     8.2 (         Phased Repeater Gun)                Light Weapons Complex alpha ->       Argon Prime/                      Argon Equipment Dock (dist  0 pp [ 133130- 166038] vol 4)
+     4.7 (         Phased Repeater Gun)                Light Weapons Complex alpha ->         Red Light/                      Argon Equipment Dock (dist  2 pp [ 133130- 166038] vol 4)
+     4.7 (         Phased Repeater Gun)                       Argon Equipment Dock ->         Red Light/                      Argon Equipment Dock (dist  2 pp [ 133130- 166038] vol 4)
+     4.1 (         Phased Repeater Gun)                Light Weapons Complex alpha -> Antigone Memorial/                      Argon Equipment Dock (dist  3 pp [ 133130- 166038] vol 4)
+     4.1 (         Phased Repeater Gun)                       Argon Equipment Dock ->      Cloudbase SO/                      Argon Equipment Dock (dist  3 pp [ 133130- 166038] vol 4)
+     4.1 (         Phased Repeater Gun)                Light Weapons Complex alpha ->      Cloudbase SO/                      Argon Equipment Dock (dist  3 pp [ 133130- 166038] vol 4)
+     4.1 (         Phased Repeater Gun)                       Argon Equipment Dock -> Antigone Memorial/                      Argon Equipment Dock (dist  3 pp [ 133130- 166038] vol 4)
+     2.9 ( Particle Accelerator Cannon)                Light Weapons Complex alpha ->       Argon Prime/                      Argon Equipment Dock (dist  0 pp [ 34671- 43241] vol 3)
+     1.6 ( Particle Accelerator Cannon)                Light Weapons Complex alpha ->         Red Light/                      Argon Equipment Dock (dist  2 pp [ 34671- 43241] vol 3)
+     1.6 ( Particle Accelerator Cannon)                       Argon Equipment Dock ->         Red Light/                      Argon Equipment Dock (dist  2 pp [ 34671- 43241] vol 3)
+     1.4 ( Particle Accelerator Cannon)                       Argon Equipment Dock ->      Cloudbase SO/                      Argon Equipment Dock (dist  3 pp [ 34671- 43241] vol 3)
+     1.4 ( Particle Accelerator Cannon)                Light Weapons Complex alpha ->      Three Worlds/                      Argon Equipment Dock (dist  3 pp [ 34671- 43241] vol 3)
+     1.4 ( Particle Accelerator Cannon)                Light Weapons Complex alpha ->      Cloudbase SO/                      Argon Equipment Dock (dist  3 pp [ 34671- 43241] vol 3)
+     1.4 ( Particle Accelerator Cannon)                       Argon Equipment Dock ->      Three Worlds/                      Argon Equipment Dock (dist  3 pp [ 34671- 43241] vol 3)
+     0.9 (         Impulse Ray Emitter)                       Argon Equipment Dock ->         Red Light/                      Argon Equipment Dock (dist  2 pp [  3928-  5424] vol 1)
+     0.8 (            Silkworm Missile) Production Complex Image Recognition alpha ->       Argon Prime/                      Argon Equipment Dock (dist  0 pp [  4295-  5809] vol 2)
+     0.7 (         Impulse Ray Emitter)                       Argon Equipment Dock ->      Cloudbase SO/                      Argon Equipment Dock (dist  3 pp [  3928-  5424] vol 1)
+     0.7 (         Impulse Ray Emitter)                       Argon Equipment Dock -> Antigone Memorial/                      Argon Equipment Dock (dist  3 pp [  3928-  5424] vol 1)
+     0.7 (         Impulse Ray Emitter)                       Argon Equipment Dock ->      Three Worlds/                      Argon Equipment Dock (dist  3 pp [  3928-  5424] vol 1)
+     0.6 (         Photon Pulse Cannon)                       Argon Equipment Dock ->         Red Light/                      Argon Equipment Dock (dist  2 pp [ 878810- 990998] vol 100)
 ```
 
 Generate the best 8 trade routes originating from Cloudbase NW for a ship with a capacity of 75, and don't include trading posts:
