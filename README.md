@@ -19,6 +19,9 @@ possible price and sell at the highest possible price.  This is almost
 never the case in the game, though.  Use this software only as a rough guide
 and always trade wisely.
 
+Sector names, when abbreviated, follow the abbreviations from the 2014-12-17
+version of [this interactive map](http://x3ap.e0b.eu/).
+
 ### The database
 
 Before you run this script, you must download the SQLite database that
