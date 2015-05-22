@@ -49,6 +49,9 @@ join sector_goods_sold sgs on sgb.good_name = sgs.good_name
 where
     sgs.sector_name = :source_sector_name
     and sgb.sector_name = :dest_sector_name
+    -- When finding trade routes within a single sector, don't consider trade
+    -- routes that start and end at the same station.
+    and case when sgs.sector_name == sgb.sector_name then sgs.station_name != sgb.station_name else 1 end
 END
 
 SQL_SECTOR_NEIGHBORS = <<END
