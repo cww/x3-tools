@@ -164,7 +164,7 @@ class X3Thing
         rs = stm.execute @sector_name, sector[:name]
         rs.each_hash do |row|
           row = row.inject({}){ |memo,(k,v)| memo[k.to_sym] = v; memo }
-          next if @user_max_buy_price && row[:min_buy_price] > @user_max_buy_price
+          next if @user_max_buy_price && row[:price_min] > @user_max_buy_price
           next if @ignore_trading_posts && (row[:source_trading_post] || row[:dest_trading_post])
           row[:end_sector] = sector[:name]
           row[:distance] = sector[:distance]
