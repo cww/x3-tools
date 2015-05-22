@@ -148,14 +148,17 @@ If there's ever enough interest, I'll describe the database schema here.
 
 ## Contributing
 
+I love contributions!
+
 If you would like to contribute to the code repository, please open a pull
-request on GitHub with clean code and a concise but thorough description.
+request on GitHub with clean code and a concise but comprehensive description.
 
 For database contributions, please open a pull request on GitHub and enclose
 a series of INSERT and/or UPDATE statements that can be run on the
-currently-published version of the database.  If you are adding stations,
-please add *all* of the stations for the entire sector and double-check
-your updates of the `sector` table.
+currently-published version of the database.
+
+If you are adding stations to the database, please add *all* of the stations
+for the entire sector and double-check your updates of the `sector` table.
 
 ## License
 
