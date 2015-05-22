@@ -127,6 +127,8 @@ Some station types are omitted entirely:
 *   Federal Argon Shipyard (only sells stations)
 *   Argon Stock Exchange (requires owning a station in Argon space)
 *   TerraCorp Headquarters (only sells ship equipment and services)
+*   Military Outpost (I haven't taken the time to figure out how they work
+    yet - presumably, they're trading posts)
 
 Equipment docks and trading stations are considered to be trading posts.  Only
 the following categories of good are included from these stations, if applicable.
