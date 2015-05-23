@@ -83,7 +83,7 @@ class X3Thing
     # Reverse sort so that the highest scores are at the front of the array
     routes = routes.sort { |a,b| b[:score] <=> a[:score] }
     # Print the top N routes
-    routes[0 .. @output_size - 1].each do |route|
+    routes.take(@output_size).each do |route|
       puts '%8.1f (% 28s) % 42s -> % 17s/% 42s (dist % 2d pp [% 6d-% 6d] vol %d)' % route.values_at(
         :score, :good_name, :source_station, :end_sector, :dest_station,
         :distance, :price_min, :price_max, :volume)
